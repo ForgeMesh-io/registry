@@ -45,6 +45,10 @@ jobs:
           SNAPSHOT_KEY: ${{ secrets.SNAPSHOT_KEY }}
           TIMESTAMP_KEY: ${{ secrets.TIMESTAMP_KEY }}
         run: |
+          if [ -z "$SNAPSHOT_KEY" ] || [ -z "$TIMESTAMP_KEY" ]; then
+            echo "::error::SNAPSHOT_KEY/TIMESTAMP_KEY missing from the online-keys environment (docs/MANUAL_STEPS.md)"
+            exit 1
+          fi
           keys="$(mktemp -d)"
           umask 077
           printf '%s\n' "$SNAPSHOT_KEY" > "$keys/DEV-snapshot.pem"
