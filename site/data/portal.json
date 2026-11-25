@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T12:57:31Z",
+  "generated_at": "2026-11-25T15:31:00Z",
   "registry_url": "https://forgemesh-io.github.io/registry",
   "protocol": 1,
   "anchor": {
@@ -14,7 +14,50 @@
       "tagline": "Protocol, coordination, validation, security and the portal itself.",
       "repository": "https://github.com/ForgeMesh-io/nexus",
       "status": "alpha",
-      "stats": null
+      "stats": {
+        "as_of": "2026-11-25T15:30:25Z",
+        "paused": false,
+        "counts": {
+          "AVAILABLE": 7,
+          "BLOCKED": 1
+        },
+        "active_participants": 0,
+        "oldest_in_validation": null,
+        "tasks": [
+          {
+            "id": "NX-0001",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": "NX-0002",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": "NX-0003",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": "NX-0004",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": "NX-0005",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": "NX-0006",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": "NX-0007",
+            "status": "BLOCKED"
+          },
+          {
+            "id": "NX-0008",
+            "status": "AVAILABLE"
+          }
+        ]
+      }
     },
     {
       "swarm": "orbis",
@@ -24,7 +67,74 @@
       "repository": "https://github.com/ForgeMesh-io/anyps5",
       "upstream": "https://github.com/boykopovar/AnyPS5",
       "status": "research",
-      "stats": null
+      "stats": {
+        "as_of": "2026-11-25T14:40:16Z",
+        "paused": false,
+        "counts": {
+          "AVAILABLE": 7,
+          "BLOCKED": 7
+        },
+        "active_participants": 0,
+        "oldest_in_validation": null,
+        "tasks": [
+          {
+            "id": "ORB-0001",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": "ORB-0002",
+            "status": "BLOCKED"
+          },
+          {
+            "id": "ORB-0003",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": "ORB-0004",
+            "status": "BLOCKED"
+          },
+          {
+            "id": "ORB-0005",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": "ORB-0006",
+            "status": "BLOCKED"
+          },
+          {
+            "id": "ORB-0007",
+            "status": "BLOCKED"
+          },
+          {
+            "id": "ORB-0008",
+            "status": "BLOCKED"
+          },
+          {
+            "id": "ORB-0009",
+            "status": "BLOCKED"
+          },
+          {
+            "id": "ORB-0010",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": "ORB-0011",
+            "status": "BLOCKED"
+          },
+          {
+            "id": "ORB-0012",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": "ORB-0013",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": "ORB-0014",
+            "status": "AVAILABLE"
+          }
+        ]
+      }
     },
     {
       "swarm": "vie",
@@ -33,7 +143,67 @@
       "tagline": "An independent Vulkan-first compatibility layer. Starts with a research campaign on existing projects.",
       "repository": "https://github.com/ForgeMesh-io/vie",
       "status": "research",
-      "stats": null
+      "stats": {
+        "as_of": "2026-11-25T14:23:49Z",
+        "paused": false,
+        "counts": {
+          "AVAILABLE": 10,
+          "BLOCKED": 2
+        },
+        "active_participants": 0,
+        "oldest_in_validation": null,
+        "tasks": [
+          {
+            "id": "VIE-0001",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": "VIE-0002",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": "VIE-0003",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": "VIE-0004",
+            "status": "BLOCKED"
+          },
+          {
+            "id": "VIE-0005",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": "VIE-0006",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": "VIE-0007",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": "VIE-0008",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": "VIE-0009",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": "VIE-0010",
+            "status": "BLOCKED"
+          },
+          {
+            "id": "VIE-0011",
+            "status": "AVAILABLE"
+          },
+          {
+            "id": "VIE-0012",
+            "status": "AVAILABLE"
+          }
+        ]
+      }
     }
-  ]
+  ],
+  "leaderboard": []
 }

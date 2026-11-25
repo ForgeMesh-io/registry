@@ -81,3 +81,12 @@ footer { border-top: 1px solid var(--line); padding: 2rem clamp(1rem, 4vw, 3rem)
 footer p { max-width: 60rem; }
 
 @media (prefers-reduced-motion: no-preference) { .join { transition: filter .15s; } }
+.site-note { margin: 0; padding: .45rem 1rem; text-align: center; font-size: .875rem; border-bottom: 1px solid currentColor; }
+.progress { margin-bottom: 1rem; }
+.task-list, .rank-list { padding-inline-start: 1.4rem; }
+.task-list li, .rank-list li { margin-block: .25rem; }
+.impact-project { border-inline-start: .2rem solid currentColor; margin: 1rem 0; padding-inline-start: 1rem; }
+.impact-project h4 { margin: 0 0 .5rem; }
+.impact-project label { display: flex; gap: .75rem; align-items: center; flex-wrap: wrap; }
+.impact-project meter { inline-size: min(12rem, 100%); }
+#login { font: inherit; color: inherit; background: transparent; padding: .4rem; max-width: 100%; border: 1px solid currentColor; }

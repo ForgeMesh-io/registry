@@ -6,6 +6,7 @@
 name: pages
 
 on:
+  pull_request:
   push:
     branches: [main]
   schedule:
@@ -19,7 +20,21 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - run: python3 -m unittest -v
+      - run: node --check site/app.js
+
   build:
+    if: github.event_name != 'pull_request'
+    needs: test
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     environment: online-keys
@@ -55,7 +70,9 @@ jobs:
           printf '%s\n' "$TIMESTAMP_KEY" > "$keys/DEV-timestamp.pem"
           FORGEMESH_KEYS="$keys" python registry/dev_registry.py refresh
           rm -rf "$keys"
-      - run: python registry/build_site.py
+      - name: Build portal from public state
+        working-directory: registry
+        run: python build_site.py
       - name: Self-check with the verifying client
         run: |
           cd registry/site
