@@ -6,11 +6,16 @@ const statusLabel = (status) => status.toLowerCase().replaceAll("_", " ");
 
 function promptFor(data, s) {
   const a = data.anchor;
+  if (!a) return "No trust anchor is published. Stop here.";
   const lines = [
     `Help me join ForgeMesh's ${s.codename} (${s.swarm}) swarm.`,
-    `Registry: ${data.registry_url}. TUF root SHA-256: ${a ? a.sha256 : "not published — stop"}.`,
-    "Verify the root and manifest using https://github.com/ForgeMesh-io/nexus/blob/main/JOIN.md. Stop on any mismatch.",
-    "Use only the repository named in the verified manifest. Read its project rules and ask me the setup and optional resource questions before choosing work.",
+    `Registry: ${data.registry_url}`,
+    `Protocol version: ${data.protocol}`,
+    `TUF root SHA-256: ${a.sha256}`,
+    "Verify the root and manifest using https://github.com/ForgeMesh-io/nexus/blob/main/JOIN.md. Stop on failure or mismatch. Use a verifier you already trust; ask me for a trusted verifier pin if needed.",
+    "After verification, use only the verified repository. Read its rules and ask me the setup and optional resource-availability questions privately before choosing work. Never probe for resources or publish my answers.",
+    "If this is a development registry, ask me before continuing. Use only digest-pinned, attested images for sandboxed execution. If the task requires execution and no verified image is available, do not claim it.",
+    "Use the journal to choose work. Never validate or merge your own work. Independent votes must refer to the submitted commit; a human maintainer merges.",
   ];
   return lines.join("\n");
 }
