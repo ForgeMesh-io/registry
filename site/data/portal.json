@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-11-25T12:55:03Z",
+  "registry_url": "https://forgemesh-io.github.io/registry",
+  "protocol": 1,
+  "anchor": {
+    "sha256": "98b1c6e954a7ec0e061226e81f54d7bc63669d70bc03c1683fe025ee3b8498d9",
+    "environment": "development"
+  },
+  "swarms": [
+    {
+      "swarm": "nexus",
+      "codename": "NEXUS",
+      "title": "ForgeMesh Core",
+      "tagline": "Protocol, coordination, validation, security and the portal itself.",
+      "repository": "https://github.com/ForgeMesh-io/nexus",
+      "status": "alpha",
+      "stats": null
+    },
+    {
+      "swarm": "orbis",
+      "codename": "ORBIS",
+      "title": "AnyPS5 / PlayStation 5",
+      "tagline": "Select, test and integrate the best AnyPS5 contributions while staying in sync with upstream.",
+      "repository": "https://github.com/ForgeMesh-io/anyps5",
+      "upstream": "https://github.com/boykopovar/AnyPS5",
+      "status": "research",
+      "stats": null
+    },
+    {
+      "swarm": "vie",
+      "codename": "VIE",
+      "title": "Xbox Series X|S",
+      "tagline": "An independent Vulkan-first compatibility layer. Starts with a research campaign on existing projects.",
+      "repository": "https://github.com/ForgeMesh-io/vie",
+      "status": "research",
+      "stats": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+ "signatures": [
+  {
+   "keyid": "71fb512b43001cbca191854bc7f813a78d6879f5a80d840f7b54a3016e2fb8bd",
+   "sig": "55e7b68ae1cb2fb2e340ca3521a110f8b688454a2eeb738cf5aed10ac1cbb19aebc4f5d72195ef6d6d9941119840517db561a064a6564c42c79b7af7b262fc02"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "expires": "2027-02-23T12:55:03Z",
+  "spec_version": "1.0.31",
+  "targets": {
+   "swarms/nexus/manifest.json": {
+    "hashes": {
+     "sha256": "69e96a9417bb0d5401ec1b4e3cc6fea67a71167f5495b5cb32d788414927aa0c"
+    },
+    "length": 503
+   }
+  },
+  "version": 2
+ }
+}

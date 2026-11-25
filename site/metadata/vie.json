@@ -1,0 +1,22 @@
+{
+ "signatures": [
+  {
+   "keyid": "4e7181581938c521e0bd036f7ebe04960cdd24f07253eb7a113b60e51c0a6b47",
+   "sig": "f30d6ad47985ffc0922aa854b950998c6366c91379232657289bfbd5ae527cd68e3e5d8e86e6177ba9be9803d1feb9de7f3cce82cb4bb704aef681d2b8d8ca00"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "expires": "2027-02-23T12:55:03Z",
+  "spec_version": "1.0.31",
+  "targets": {
+   "swarms/vie/manifest.json": {
+    "hashes": {
+     "sha256": "3d3f5ed5963d9f58911e63f516cc5b62fc11fdb6f5581dad26da6caa0e079a66"
+    },
+    "length": 525
+   }
+  },
+  "version": 2
+ }
+}

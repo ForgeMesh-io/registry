@@ -1,0 +1,39 @@
+{
+ "signatures": [
+  {
+   "keyid": "e6dd66490dd399ce3eda24931e67da3b8acece5e51fd703cba497e5753e247a3",
+   "sig": "d7fe28e9b7cda8d9065895854966873513129cd69c193b4248259f6a5f3ee2eaccf0e6a9eef03eb9006afc169f654b67daf4c0283d8ca3e03cb8788a3c93cd09"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "delegations": {
+   "keys": {
+    "71fb512b43001cbca191854bc7f813a78d6879f5a80d840f7b54a3016e2fb8bd": {
+     "keytype": "ed25519",
+     "keyval": {
+      "public": "9af19f97c4610b81b680e6649053480f17e081452cd889b7e07986ea42e22776"
+     },
+     "scheme": "ed25519"
+    }
+   },
+   "roles": [
+    {
+     "keyids": [
+      "71fb512b43001cbca191854bc7f813a78d6879f5a80d840f7b54a3016e2fb8bd"
+     ],
+     "name": "nexus",
+     "paths": [
+      "swarms/nexus/*"
+     ],
+     "terminating": true,
+     "threshold": 1
+    }
+   ]
+  },
+  "expires": "2027-05-24T12:54:41Z",
+  "spec_version": "1.0.31",
+  "targets": {},
+  "version": 2
+ }
+}

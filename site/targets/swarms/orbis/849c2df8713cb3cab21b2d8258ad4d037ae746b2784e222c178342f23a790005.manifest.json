@@ -1,0 +1,20 @@
+{
+  "codename": "ORBIS",
+  "description": "Community fork of AnyPS5: select, test and integrate the best upstream contributions. Not endorsed by upstream.",
+  "image_signer_workflow": "ForgeMesh-io/nexus/.github/workflows/images.yml",
+  "images": {},
+  "instructions": "FORGEMESH.md",
+  "license": "GPL-2.0-only",
+  "nexus_ref": "1793fe4a994d573454120832c187e33317b6756f",
+  "profiles": [
+    "research",
+    "build",
+    "test",
+    "gpu"
+  ],
+  "protocol": 1,
+  "repository": "https://github.com/ForgeMesh-io/anyps5",
+  "status": "research",
+  "swarm": "orbis",
+  "upstream": "https://github.com/boykopovar/AnyPS5"
+}
