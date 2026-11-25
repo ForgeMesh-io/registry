@@ -22,9 +22,10 @@
     {
       "swarm": "vie",
       "codename": "VIE",
-      "title": "Xbox Series X|S",
-      "tagline": "An independent Vulkan-first compatibility layer. Starts with a research campaign on existing projects.",
+      "title": "XCL / Xbox Series X|S",
+      "tagline": "Community fork of XCL. Windows x64 is the upstream baseline; native Linux and macOS ports are planned.",
       "repository": "https://github.com/ForgeMesh-io/vie",
+      "upstream": "https://github.com/xcl-dev/xcl",
       "status": "research"
     }
   ]

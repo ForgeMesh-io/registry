@@ -2,12 +2,12 @@
  "signatures": [
   {
    "keyid": "8608bfd38cdc2d7bb8ee69bfd2380e4af8ea0fbe5cd837801f3a248b2f852766",
-   "sig": "3e1e4c3a73f7503a2b95114dddc0458ca14f646f961d0e2f47aa3b92f84b5b21f50501cdef5148069b0b0ec4deabd39d3b8efc6ca98f83b9f321300c2d87a50f"
+   "sig": "0541c7754e8db9c1393b82527ff0861b4c8f6ab735e1584fac6ea78a77e1f28d7ea2b119704aa0efe0dcb2adc5d573df6ad85010dbbe54c37c9e0057f11a9809"
   }
  ],
  "signed": {
   "_type": "snapshot",
-  "expires": "2026-12-02T12:57:31Z",
+  "expires": "2026-12-02T17:15:12Z",
   "meta": {
    "nexus.json": {
     "version": 3
@@ -19,10 +19,10 @@
     "version": 4
    },
    "vie.json": {
-    "version": 3
+    "version": 4
    }
   },
   "spec_version": "1.0.31",
-  "version": 1795611452
+  "version": 1795626912
  }
 }

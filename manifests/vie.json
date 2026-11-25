@@ -8,8 +8,9 @@
   "codename": "VIE",
   "status": "research",
   "repository": "https://github.com/ForgeMesh-io/vie",
-  "license": "Apache-2.0",
-  "description": "Independent Vulkan-first compatibility layer for Xbox Series software on Linux. Research phase.",
+  "upstream": "https://github.com/xcl-dev/xcl",
+  "license": "GPL-2.0-only",
+  "description": "Community fork of XCL for Xbox Series X|S games. Windows x64 is the upstream baseline. Native Linux and macOS ports are planned and not yet supported.",
   "profiles": [
     "research",
     "build",
