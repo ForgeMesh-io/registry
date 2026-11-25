@@ -1,0 +1,22 @@
+{
+ "signatures": [
+  {
+   "keyid": "909971482e0d872507139be87e0f078b2fa3749558a96179128207cfc83b6dd7",
+   "sig": "bfad60edabcfb0d74bf2698b13c0dd4f919d545b23d61d9898f4109c2303f117cd8de804b81a60b26c8c481e0d46bce3c33513eb8975a5a27a22bf8c98a7fd00"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "expires": "2027-02-23T12:57:31Z",
+  "spec_version": "1.0.31",
+  "targets": {
+   "swarms/orbis/manifest.json": {
+    "hashes": {
+     "sha256": "a92413754423247251147085364d5bfec1390d84cfdf91e4dbb69adb0cf423b2"
+    },
+    "length": 619
+   }
+  },
+  "version": 3
+ }
+}

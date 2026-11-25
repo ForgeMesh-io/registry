@@ -1,0 +1,18 @@
+{
+  "codename": "NEXUS",
+  "description": "ForgeMesh core: protocol, coordination, validation, security, portal.",
+  "image_signer_workflow": "ForgeMesh-io/nexus/.github/workflows/images.yml",
+  "images": {},
+  "instructions": "AGENTS.md",
+  "license": "Apache-2.0",
+  "nexus_ref": "8f0500ee5bb4e3be6b95de30f950dad024cdba44",
+  "profiles": [
+    "research",
+    "build",
+    "test"
+  ],
+  "protocol": 1,
+  "repository": "https://github.com/ForgeMesh-io/nexus",
+  "status": "alpha",
+  "swarm": "nexus"
+}

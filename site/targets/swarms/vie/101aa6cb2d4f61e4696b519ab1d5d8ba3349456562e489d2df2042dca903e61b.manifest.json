@@ -1,0 +1,18 @@
+{
+  "codename": "VIE",
+  "description": "Independent Vulkan-first compatibility layer for Xbox Series software on Linux. Research phase.",
+  "image_signer_workflow": "ForgeMesh-io/nexus/.github/workflows/images.yml",
+  "images": {},
+  "instructions": "AGENTS.md",
+  "license": "Apache-2.0",
+  "nexus_ref": "8f0500ee5bb4e3be6b95de30f950dad024cdba44",
+  "profiles": [
+    "research",
+    "build",
+    "gpu"
+  ],
+  "protocol": 1,
+  "repository": "https://github.com/ForgeMesh-io/vie",
+  "status": "research",
+  "swarm": "vie"
+}

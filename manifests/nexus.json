@@ -1,7 +1,7 @@
 {
   "protocol": 1,
   "instructions": "AGENTS.md",
-  "nexus_ref": "1793fe4a994d573454120832c187e33317b6756f",
+  "nexus_ref": "8f0500ee5bb4e3be6b95de30f950dad024cdba44",
   "images": {},
   "image_signer_workflow": "ForgeMesh-io/nexus/.github/workflows/images.yml",
   "swarm": "nexus",

@@ -1,0 +1,28 @@
+{
+ "signatures": [
+  {
+   "keyid": "8608bfd38cdc2d7bb8ee69bfd2380e4af8ea0fbe5cd837801f3a248b2f852766",
+   "sig": "bbabd26bba11e867f6934bc33470bf1424e2f03476b1a478ddd455efe5fe041d54f609f59290180196cbe69566a9d8b32e73eff4c453bfefa1d605d884f52805"
+  }
+ ],
+ "signed": {
+  "_type": "snapshot",
+  "expires": "2026-12-02T12:57:30Z",
+  "meta": {
+   "nexus.json": {
+    "version": 3
+   },
+   "orbis.json": {
+    "version": 2
+   },
+   "targets.json": {
+    "version": 4
+   },
+   "vie.json": {
+    "version": 3
+   }
+  },
+  "spec_version": "1.0.31",
+  "version": 1795611451
+ }
+}
